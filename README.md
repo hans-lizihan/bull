@@ -95,6 +95,7 @@ There are a few third-party UIs that you can use for monitoring:
 - [Arena](https://github.com/mixmaxhq/arena)
 - [bull-repl](https://github.com/darky/bull-repl)
 - [bull-board](https://github.com/vcapretz/bull-board)
+- [bull-master](https://github.com/hans-lizihan/bull-master)
 
 **Bull <= v2**
 
