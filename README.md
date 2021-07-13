@@ -43,27 +43,48 @@
     </a>
   </p>
   <p>
-    <em>Follow <a href="http://twitter.com/manast">@manast</a> for Bull news and updates!</em>
+    <em>Follow <a href="http://twitter.com/manast">@manast</a> for *important* Bull/BullMQ news and updates!</em>
   </p>
 </div>
 
----
+### 🛠 Tutorials
 
-### BullMQ 4 Beta
-
-If you want to start using the next major version of Bull you are welcome to the new repo [here](https://github.com/taskforcesh/bullmq)
+You can find tutorials and news in this blog: https://blog.taskforce.sh/
 
 ---
 
-### Sponsors
+### BullMQ
 
-If you find Bull valuable, please consider sponsoring its development by using the Taskforce front-end &nbsp; [<img src="http://taskforce.sh/assets/logo_square.png" width="100" alt="Taskforce.sh, Inc" style="padding: 100px"/>](https://taskforce.sh). 
-
-Besides helping Bull's development, you will also benefit from a constantly-improving UI for managing all of your queues and jobs.
+If you want to start using the next major version of Bull written entirely in Typescript you are welcome to the new repo [here](https://github.com/taskforcesh/bullmq). Otherwise you are very welcome to still use Bull, which is a safe, battle tested codebase.
 
 ---
 
-### Features
+### 🚀 Sponsor 🚀
+
+[<img src="https://www.redisgreen.com/images/rglogo/redisgreen_transparent_240x48.png" width="150" alt="RedisGreen" style="padding: 100px"/>](https://dashboard.redisgreen.net/new?utm_campaign=BULLMQ)
+
+If you need high quality production Redis instances for your Bull projects, please consider subscribing 
+to [RedisGreen](https://dashboard.redisgreen.net/new?utm_campaign=BULLMQ), 
+leaders in Redis hosting that works perfectly with Bull. Use the promo code "BULLMQ" when signing up to help us
+sponsor the development of Bull!
+
+---
+
+### Official FrontEnd
+
+[<img src="http://taskforce.sh/assets/logo_square.png" width="100" alt="Taskforce.sh, Inc" style="padding: 100px"/>](https://taskforce.sh)
+
+Supercharge your queues with a professional front end:
+- Get a complete overview of all your queues.
+- Inspect jobs, search, retry, or promote delayed jobs.
+- Metrics and statistics.
+- and many more features.
+
+Sign up at [Taskforce.sh](https://taskforce.sh)
+
+---
+
+### Bull Features
 
 - [x] Minimal CPU usage due to a polling-free design.
 - [x] Robust design based on Redis.
@@ -89,13 +110,17 @@ And coming up on the roadmap...
 
 There are a few third-party UIs that you can use for monitoring:
 
+**BullMQ**
+
+- [Taskforce](https://taskforce.sh)
+
 **Bull v3**
 
 - [Taskforce](https://taskforce.sh)
-- [Arena](https://github.com/mixmaxhq/arena)
-- [bull-repl](https://github.com/darky/bull-repl)
 - [bull-board](https://github.com/vcapretz/bull-board)
 - [bull-master](https://github.com/hans-lizihan/bull-master)
+- [bull-repl](https://github.com/darky/bull-repl)
+- [bull-monitor](https://github.com/s-r-x/bull-monitor)
 
 **Bull <= v2**
 
@@ -161,8 +186,8 @@ Definitions are currently maintained in the [DefinitelyTyped](https://github.com
 ## Contributing
 
 We welcome all types of contributions, either code fixes, new features or doc improvements.
-Code formatting is enforced by [prettier](https://prettier.io/)
-For commits please follow conventional [commits convention](https://www.conventionalcommits.org/en/v1.0.0-beta.2/)
+Code formatting is enforced by [prettier](https://prettier.io/).
+For commits please follow conventional [commits convention](https://www.conventionalcommits.org/en/v1.0.0-beta.2/).
 All code must pass lint rules and test suites before it can be merged into develop.
 
 ---
@@ -311,7 +336,7 @@ A job can be added to a queue and processed repeatedly according to a cron speci
 ```
 
 As a tip, check your expressions here to verify they are correct:
-[cron expression descriptor](http://cronexpressiondescriptor.azurewebsites.net/)
+[cron expression generator](https://crontab.cronhub.io)
 
 #### Pause / Resume
 
